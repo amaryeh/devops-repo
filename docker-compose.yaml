@@ -1,0 +1,6 @@
+services:
+  aryeh:
+    image: "robolion1200/flaskhello:1"
+    ports:
+      - "5000:5000"
+    restart: always
